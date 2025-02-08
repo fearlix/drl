@@ -43,8 +43,8 @@ A standalone Python script `local_project/DSTI.py` is provided for running the m
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/deep-learning-image-classification.git
-cd deep-learning-image-classification
+git clone https://github.com/fearlix/drl.git
+cd drl
 ```
 
 #### 2. Install Dependencies
