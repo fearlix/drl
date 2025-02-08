@@ -44,19 +44,19 @@ A standalone Python script `local_project/DSTI.py` is provided for running the m
 
 ```bash
 git clone https://github.com/fearlix/drl.git
-cd drl
+cd drl/local_project
 ```
 
 #### 2. Install Dependencies
 
 ```bash
-pip install -r local_project/requirements.txt
+pip install -r requirements.txt
 ```
 
 #### 3. Run the Model
 
 ```bash
-python local_project/DSTI.py
+python main.py
 ```
 
 This will:
@@ -66,7 +66,7 @@ This will:
 - Evaluate the model and save the best version.
 - Upload the trained model to Hugging Face.
 
-A standalone Python script `DSTI.py` is provided for running the model outside Google Colab. Ensure you have all dependencies installed by using the provided `requirements.txt` file.
+A standalone Python script `main.py` is provided for running the model outside Google Colab. Ensure you have all dependencies installed by using the provided `requirements.txt` file.
 
 ## Model Architecture
 
