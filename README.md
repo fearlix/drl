@@ -111,14 +111,6 @@ The script automates model uploading:
 - Saves model with a timestamped filename.
 - Uploads using `huggingface_hub`.
 
-## Running on Google Colab
-
-To execute the pipeline in Google Colab:
-
-1. Open [Colab Notebook](https://colab.research.google.com/drive/1Rb2ScqetPYqYMxRaXiUJ2TL1W5V4BDdz)
-2. Run the notebook cell by cell.
-3. Authenticate with Hugging Face when prompted.
-
 ## Contributing
 
 Contributions are welcome! To contribute:
@@ -129,11 +121,7 @@ Contributions are welcome! To contribute:
 4. Push to branch: `git push origin feature-name`
 5. Submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For questions or collaborations, reach out to [[your-email@example.com](mailto\:your-email@example.com)].
+For questions or collaborations, reach out to me.
 
