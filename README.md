@@ -38,7 +38,7 @@ To execute the pipeline in Google Colab:
 
 ### Running Locally with Python Script
 
-A standalone Python script `local_project/DSTI.py` is provided for running the model outside Google Colab. Ensure you have all dependencies installed by using the provided `local_project/requirements.txt` file.
+A standalone Python script `local_project/DSTI.py` is provided for running the model outside Google Colab. Ensure you have all dependencies installed by using the provided `local_project/requirements.txt` file. Please also add your secret to the secrets.json!!!
 
 #### 1. Clone the Repository
 
