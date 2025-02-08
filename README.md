@@ -31,16 +31,10 @@ pip install datasets torchvision torch huggingface_hub pandas numpy matplotlib s
 To execute the pipeline in Google Colab:
 
 1. Download the file from `colab_project/DSTI.ipynb`.
-2. Open [Colab Notebook](https://colab.research.google.com/drive/1Rb2ScqetPYqYMxRaXiUJ2TL1W5V4BDdz).
-3. Run the notebook cell by cell.
-4. Authenticate with Hugging Face when prompted.
-
-To execute the pipeline in Google Colab:
-
-1. Download the DSTI.
-2. Open [Colab Notebook](https://colab.research.google.com/drive/1Rb2ScqetPYqYMxRaXiUJ2TL1W5V4BDdz)
-3. Run the notebook cell by cell.
-4. Authenticate with Hugging Face when prompted.
+2. Open the [Google Colab ](https://colab.research.google.com)
+3. Go to the top left corner and open the notebook.
+4. Add your HF_TOKEN under secrets.
+5. Run the notebook cell by cell.
 
 ### Running Locally with Python Script
 
@@ -73,64 +67,6 @@ This will:
 - Upload the trained model to Hugging Face.
 
 A standalone Python script `DSTI.py` is provided for running the model outside Google Colab. Ensure you have all dependencies installed by using the provided `requirements.txt` file.
-
-#### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-repo/deep-learning-image-classification.git
-cd deep-learning-image-classification
-```
-
-#### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-#### 3. Run the Model
-
-```bash
-python DSTI.py
-```
-
-This will:
-
-- Authenticate Hugging Face.
-- Load and preprocess datasets.
-- Train the model with optimized settings.
-- Evaluate the model and save the best version.
-- Upload the trained model to Hugging Face.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-repo/deep-learning-image-classification.git
-cd deep-learning-image-classification
-```
-
-### 2. Run the Training Pipeline
-
-The training process is managed through the `main()` function:
-
-```python
-python DSTI.ipynb
-```
-
-This will:
-
-- Authenticate Hugging Face.
-- Load and preprocess datasets.
-- Train the model with optimized settings.
-- Evaluate the model and save the best version.
-- Upload the trained model to Hugging Face.
-
-### 3. Validate the Model
-
-```python
-python validate_model.py
-```
-
-This will run evaluation metrics and print the classification report.
 
 ## Model Architecture
 
